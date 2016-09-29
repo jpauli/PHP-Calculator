@@ -1,0 +1,19 @@
+{
+	"name" : "j-pauli/calculator",
+	"type" : "library",
+	"homepage" : "http://jpauli.tech",
+	"license" : "BSD-2-Clause",
+	"authors" : [{
+			"name" : "Julien Pauli",
+			"email" : "jpauli@php.net"
+		}
+	],
+	"require" : {
+		"php" : ">=7.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Calculator\\" : "library/Calculator/"
+		}
+	}
+}
